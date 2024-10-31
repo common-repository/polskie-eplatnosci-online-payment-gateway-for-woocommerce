@@ -1,0 +1,1745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-paylane-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-17 00:15+0100\n"
+"PO-Revision-Date: 2019-12-17 00:17+0100\n"
+"Last-Translator: admin <it@paylane.com>\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: woocommerce\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+"X-Poedit-SearchPath-0: class-wc-payment-paylane.php\n"
+"X-Poedit-SearchPath-1: newFile.php\n"
+"X-Poedit-SearchPath-2: includes/class-wc-payment-paylane.php\n"
+"X-Poedit-SearchPath-3: includes/paylane-banks.php\n"
+"X-Poedit-SearchPath-4: includes/paylane-rest.php\n"
+"X-Poedit-SearchPath-5: includes/paylane-settings.php\n"
+"X-Poedit-SearchPath-6: views/admin/notices/woocommerce-is-missing.php\n"
+"X-Poedit-SearchPath-7: forms/credit_card.php\n"
+"X-Poedit-SearchPath-8: forms/ideal.php\n"
+"X-Poedit-SearchPath-9: forms/paypal.php\n"
+"X-Poedit-SearchPath-10: forms/secure_form.php\n"
+"X-Poedit-SearchPath-11: forms/sepa.php\n"
+"X-Poedit-SearchPath-12: forms/sofort.php\n"
+"X-Poedit-SearchPath-13: forms/transfer.php\n"
+"X-Poedit-SearchPath-14: Gateway/BankTransfer.php\n"
+"X-Poedit-SearchPath-15: Gateway/Base.php\n"
+"X-Poedit-SearchPath-16: Gateway/CreditCard.php\n"
+"X-Poedit-SearchPath-17: Gateway/Ideal.php\n"
+"X-Poedit-SearchPath-18: Gateway/Paypal.php\n"
+"X-Poedit-SearchPath-19: Gateway/Secure.php\n"
+"X-Poedit-SearchPath-20: Gateway/Sepa.php\n"
+"X-Poedit-SearchPath-21: Gateway/Sofort.php\n"
+
+#: forms/basic/credit_card.php:14 forms/paylane/credit_card.php:5
+msgid "Card number"
+msgstr "Numer karty"
+
+#: forms/basic/credit_card.php:24 forms/paylane/credit_card.php:15
+msgid "Expiry Date"
+msgstr "Data ważności karty"
+
+#: forms/basic/credit_card.php:31 forms/paylane/credit_card.php:22
+msgid "MM / YY"
+msgstr "MM / RR"
+
+#: forms/basic/credit_card.php:35 forms/paylane/credit_card.php:25
+msgid "CVV/CVC"
+msgstr "CVV/CVC"
+
+#: forms/basic/credit_card.php:42 forms/paylane/credit_card.php:32
+msgid "CVC"
+msgstr "CVC"
+
+#: forms/basic/credit_card.php:45 forms/paylane/credit_card.php:35
+msgid "Card holder name"
+msgstr "Właściciel karty"
+
+#: forms/basic/transfer.php:12 forms/paylane/transfer.php:11
+#, php-format
+msgid "You will be redirected to the %s website payment."
+msgstr "Zostaniesz przekierowany na stronę %s w celu dokonania płatności"
+
+#: forms/basic/sofort.php:4 forms/paylane/sofort.php:4
+msgid "You will be redirected to the Sofort website for payment."
+msgstr "Zostaniesz przekierowany na stronę Sofort w celu dokonania płatności"
+
+#: forms/basic/sepa.php:5 forms/paylane/sepa.php:5
+msgid "Account Country"
+msgstr "Kraj"
+
+#: forms/basic/sepa.php:14 forms/paylane/sepa.php:14
+msgid "IBAN"
+msgstr "IBAN"
+
+#: forms/basic/sepa.php:23 forms/paylane/sepa.php:23
+msgid "BIC"
+msgstr "BIC"
+
+#: forms/basic/sepa.php:32 forms/paylane/sepa.php:32
+msgid "Account Holder"
+msgstr "Właściciel konta"
+
+#: forms/basic/ideal.php:4 forms/paylane/ideal.php:4
+msgid "You will be redirected to your bank's website payment."
+msgstr ""
+"Zostaniesz przekierowany na stronę swojego banku w celu dokonania płatności"
+
+#: forms/basic/secure_form.php:4
+msgid "You will be redirected to the Polskie ePłatności website for payment."
+msgstr ""
+"Zostaniesz przekierowany na stronę Polskie ePłatności w celu dokonania "
+"płatności"
+
+#: forms/basic/blik0.php:6 forms/paylane/blik0.php:6
+msgid "Type your BLIK code"
+msgstr "Podaj swój kod BLIK"
+
+#: forms/basic/paypal.php:4 forms/paylane/paypal.php:4
+msgid "You will be redirected to the PayPal website for payment."
+msgstr "Zostaniesz przekierowany na stronę PayPal w celu dokonania płatności"
+
+#: forms/paylane/secure_form.php:4
+msgid ""
+"You will be redirected to the Polskie ePłatności Secure Form website for "
+"payment."
+msgstr ""
+"Zostaniesz przekierowany na stronę Polskie ePłatności Secure Form w celu "
+"dokonania płatności"
+
+#: includes/paylane-js-validation-messages.php:5
+msgid "This field is required"
+msgstr "To pole jest wymagane"
+
+#: includes/paylane-js-validation-messages.php:6
+msgid "Incorrect field format"
+msgstr "Nieodpowiedni format"
+
+#: includes/paylane-js-validation-messages.php:7
+msgid "Invalid card number"
+msgstr "Błędny numer karty"
+
+#: includes/paylane-js-validation-messages.php:8
+msgid "Invalid card expiration date"
+msgstr "Błędna data karty"
+
+#: includes/paylane-js-validation-messages.php:9
+msgid "Invalid card security code"
+msgstr "Błędny kod bepieczeństwa"
+
+#: includes/paylane-js-validation-messages.php:12
+#, php-format
+msgid "Minimum %d characters required"
+msgstr "Min. %d znaków wymagane"
+
+#: includes/paylane-js-validation-messages.php:13
+#, php-format
+msgid "Max. %d characters required"
+msgstr "Max. %d znawków wymagane"
+
+#: includes/paylane-errors.php:7
+msgid "Direct debit not accessible for this country"
+msgstr "Polecenie zapłaty nie jest niedostępne dla tego kraju"
+
+#: includes/paylane-errors.php:8
+msgid "Direct debit declined"
+msgstr "Polecenie zapłaty zostało odrzucone"
+
+#: includes/paylane-errors.php:10
+msgid "Account holder name is not valid"
+msgstr "Nazwa posiadacza rachunku jest nieprawidłowa"
+
+#: includes/paylane-errors.php:11
+msgid "Customer name is not valid"
+msgstr "Nazwa klienta jest nieprawidłowa"
+
+#: includes/paylane-errors.php:12
+msgid "Customer e-mail is not valid"
+msgstr "Adres e-mail klienta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:13
+msgid "Customer address (street and house) is not valid"
+msgstr "Adres klienta (ulica i dom) jest nieprawidłowy"
+
+#: includes/paylane-errors.php:14
+msgid "Customer city is not valid"
+msgstr "Miasto klienta jest nieprawidłowe"
+
+#: includes/paylane-errors.php:15
+msgid "Customer zip code is not valid"
+msgstr "Kod pocztowy klienta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:16
+msgid "Customer state is not valid"
+msgstr "Województwo klienta jest nieprawidłowe"
+
+#: includes/paylane-errors.php:17
+msgid "Customer country is not valid"
+msgstr "Kraj klienta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:18 includes/paylane-errors.php:66
+#: includes/paylane-errors.php:141
+msgid "Amount is not valid"
+msgstr "Kwota jest nieprawidłowa"
+
+#: includes/paylane-errors.php:19 includes/paylane-errors.php:30
+#: includes/paylane-errors.php:67 includes/paylane-errors.php:86
+msgid "Amount is too low"
+msgstr "Kwota jest za niska"
+
+#: includes/paylane-errors.php:20 includes/paylane-errors.php:68
+#: includes/paylane-errors.php:142
+msgid "Currency code is not valid"
+msgstr "Kod waluty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:21
+msgid "Customer IP address is not valid"
+msgstr "Adres IP klienta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:22 includes/paylane-errors.php:70
+msgid "Description is not valid"
+msgstr "Opis jest nieprawidłowy"
+
+#: includes/paylane-errors.php:23
+msgid "Account country is not valid"
+msgstr "Kraj konta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:24
+msgid "Bank code (SWIFT/BIC/BLZ) is not valid"
+msgstr "Kod banku (SWIFT/BIC/BLZ) jest nieprawidłowy"
+
+#: includes/paylane-errors.php:25
+msgid "Account number is not valid"
+msgstr "Numer konta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:26
+msgid "Processing date is not valid"
+msgstr "Data przetwarzania jest nieprawidłowa"
+
+#: includes/paylane-errors.php:27
+msgid "Processing date must be from the future"
+msgstr "Data przetwarzania musi pochodzić z przyszłości"
+
+#: includes/paylane-errors.php:28
+msgid "Account data or SEPA data should be set"
+msgstr "Dane konta lub dane SEPA powinny zostać ustawione"
+
+#: includes/paylane-errors.php:31
+msgid "Amount is too large"
+msgstr "Kwota jest za duża"
+
+#: includes/paylane-errors.php:32
+msgid "To many transactions for this card/account"
+msgstr "Zbyt wiele transakcji dla tej karty / konta"
+
+#: includes/paylane-errors.php:33
+msgid "Risk department rejection (RF)"
+msgstr "Odrzucenie z działu ryzyka (RF)"
+
+#: includes/paylane-errors.php:34
+msgid "Risk department rejection (CB)"
+msgstr "Odrzucenie z działu ryzyka (CB)"
+
+#: includes/paylane-errors.php:35
+msgid "Risk department rejection (PE)"
+msgstr "Odrzucenie z działu ryzyka (PE)"
+
+#: includes/paylane-errors.php:37
+msgid "Wrong date format"
+msgstr "Zły format daty"
+
+#: includes/paylane-errors.php:38
+msgid "This API method is not allowed for this account"
+msgstr "Ten interfejs API jest niedozwolony dla tego konta"
+
+#: includes/paylane-errors.php:39
+msgid "Data not found"
+msgstr "Nie znaleziono danych"
+
+#: includes/paylane-errors.php:41
+msgid "Multiple same transactions lock triggered. Wait and try again"
+msgstr ""
+"Wykryto zbyt wiele takich samych transakcji. Poczekaj i spróbuj ponownie"
+
+#: includes/paylane-errors.php:42
+msgid "Payment gateway problem. Please try again later"
+msgstr "Problem z bramką płatności. Spróbuj ponownie później"
+
+#: includes/paylane-errors.php:43
+msgid "Card declined"
+msgstr "Karta odrzucona"
+
+#: includes/paylane-errors.php:44
+msgid "Transaction in this currency is not allowed"
+msgstr "Transakcja w tej walucie jest niedozwolona"
+
+#: includes/paylane-errors.php:45
+msgid "Unknown payment method or method not set"
+msgstr "Nieznana metoda płatności lub metoda nie została ustawiona"
+
+#: includes/paylane-errors.php:46
+msgid ""
+"More than one payment method provided. Only one payment method is allowed"
+msgstr ""
+"Podano więcej niż jedną metodę płatności. Dozwolona jest tylko jedna metoda "
+"płatności"
+
+#: includes/paylane-errors.php:47
+msgid "Capture later not possible with this payment method"
+msgstr "Późniejsze pobranie nie jest możliwe przy użyciu tej metody płatności"
+
+#: includes/paylane-errors.php:48
+msgid "Feature not available for this payment method"
+msgstr "Funkcja niedostępna dla tej metody płatności"
+
+#: includes/paylane-errors.php:49
+msgid "Overriding default feature not allowed for this merchant account"
+msgstr ""
+"Zastępowanie domyślnej funkcji jest niedozwolone dla tego konta sprzedawcy"
+
+#: includes/paylane-errors.php:50 Gateway/Base.php:251
+msgid "Unsupported payment method"
+msgstr "Ta metoda płatności jest niedostępna"
+
+#: includes/paylane-errors.php:52 includes/paylane-errors.php:137
+msgid "Card number format is not valid"
+msgstr "Format numeru karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:53 includes/paylane-errors.php:138
+msgid "Card expiration year is not valid"
+msgstr "Rok ważności karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:54 includes/paylane-errors.php:139
+msgid "Card expiration month is not valid"
+msgstr "Miesiąc ważności karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:55
+msgid "Card expiration date is not valid"
+msgstr "Data ważności karty jest nieprawidłowa"
+
+#: includes/paylane-errors.php:56 includes/paylane-errors.php:92
+#: includes/paylane-errors.php:140
+msgid "Card has expired"
+msgstr "Karta wygasła"
+
+#: includes/paylane-errors.php:57
+msgid "Card code (CVV2/CVC2/CID) format is not valid"
+msgstr "Format kodu karty (CVV2/CVC2/CID) jest nieprawidłowy"
+
+#: includes/paylane-errors.php:58
+msgid "Name on card is not valid"
+msgstr "Nazwa na karcie jest nieprawidłowa"
+
+#: includes/paylane-errors.php:59
+msgid "Cardholder name is not valid"
+msgstr "Nazwa posiadacza karty jest nieprawidłowa"
+
+#: includes/paylane-errors.php:60
+msgid "Cardholder e-mail is not valid"
+msgstr "Adres e-mail posiadacza karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:61
+msgid "Cardholder address (street and house) is not valid"
+msgstr "Adres posiadacza karty (ulica i dom) jest nieprawidłowy"
+
+#: includes/paylane-errors.php:62
+msgid "Cardholder city is not valid"
+msgstr "Miasto posiadacza karty jest nieprawidłowe"
+
+#: includes/paylane-errors.php:63
+msgid "Cardholder zip code is not valid"
+msgstr "Kod pocztowy posiadacza karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:64
+msgid "Cardholder state is not valid"
+msgstr "Województwo posiadacza karty jest nieprawidłowe"
+
+#: includes/paylane-errors.php:65
+msgid "Cardholder country is not valid"
+msgstr "Kraj posiadacza karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:69
+msgid "Client IP address is not valid"
+msgstr "Adres IP klienta jest nieprawidłowy"
+
+#: includes/paylane-errors.php:71 includes/paylane-errors.php:144
+msgid "Unknown card type or card number invalid"
+msgstr "Nieznany typ lub nieprawidłowy numer karty"
+
+#: includes/paylane-errors.php:72 includes/paylane-errors.php:145
+msgid "Card issue number is not valid"
+msgstr "Numer wydania karty jest nieprawidłowy"
+
+#: includes/paylane-errors.php:73
+msgid "Fraud check on is not valid"
+msgstr "Fraud check jest nieprawidłowy"
+
+#: includes/paylane-errors.php:74
+msgid "AVS level is not valid"
+msgstr "Poziom AVS jest nieprawidłowy"
+
+#: includes/paylane-errors.php:75
+msgid "Transaction declined"
+msgstr "Transakcja odrzucona"
+
+#: includes/paylane-errors.php:77
+msgid "Sale Authorization ID is not valid"
+msgstr "Identyfikator autoryzacji sprzedaży jest nieprawidłowy"
+
+#: includes/paylane-errors.php:78
+msgid "Sale Authorization ID not found or the authorization has been closed"
+msgstr "Identyfikator autoryzacji sprzedaży nie został zamknięty"
+
+#: includes/paylane-errors.php:79
+msgid "Capture sale amount greater than the authorization amount"
+msgstr "Pobranie kwoty sprzedaży jest większa niż kwota autoryzacji"
+
+#: includes/paylane-errors.php:80
+msgid "Capture sale amount less than the authorization amount"
+msgstr "Pobranie kwoty sprzedaży jest mniejsza niż kwota autoryzacji"
+
+#: includes/paylane-errors.php:81
+msgid "Close Authorization amount different than the authorization amount"
+msgstr "Kwota zamknięcia autoryzacji inna niż kwota autoryzacji"
+
+#: includes/paylane-errors.php:83
+msgid "Resale without card code is not allowed for this merchant account"
+msgstr "Ponowna sprzedaż bez karty jest niedozwolona dla tego merchanta"
+
+#: includes/paylane-errors.php:84 includes/paylane-errors.php:95
+#: includes/paylane-errors.php:108
+msgid "Sale ID is not valid"
+msgstr "Identyfikator sprzedaży jest nieprawidłowy"
+
+#: includes/paylane-errors.php:85
+msgid "Resale amount is not valid"
+msgstr "Kwota ponownej sprzedaży jest nieprawidłowa"
+
+#: includes/paylane-errors.php:87
+msgid "Resale currency code is not valid"
+msgstr "Kod waluty ponownej sprzedaży jest nieprawidłowy"
+
+#: includes/paylane-errors.php:88
+msgid "Resale description is not valid"
+msgstr "Opis ponownej sprzedaży jest nieprawidłowy"
+
+#: includes/paylane-errors.php:89 includes/paylane-errors.php:98
+msgid "Sale ID not found"
+msgstr "Nie znaleziono identyfikatora sprzedaży"
+
+#: includes/paylane-errors.php:90
+msgid "Cannot resale. Chargeback assigned to Sale ID"
+msgstr ""
+"Nie można ponownie sprzedać. Obciążenie zwrotne jest przypisane do "
+"identyfikatora sprzedaży"
+
+#: includes/paylane-errors.php:91
+msgid "Cannot resale this sale"
+msgstr "Nie można wykonać ponownie sprzedaż"
+
+#: includes/paylane-errors.php:93
+msgid "Cannot resale. Reversal assigned to Sale ID"
+msgstr ""
+"Nie można ponowić sprzedaży. Cofnięcie przypisane do identyfikatora sprzedaży"
+
+#: includes/paylane-errors.php:96
+msgid "Refund amount is not valid"
+msgstr "Kwota zwrotu jest nieprawidłowa"
+
+#: includes/paylane-errors.php:97
+msgid "Refund reason is not valid"
+msgstr "Przyczyna zwrotu jest nieprawidłowa"
+
+#: includes/paylane-errors.php:99
+msgid "Cannot refund. Chargeback assigned to Sale ID"
+msgstr ""
+"Nie można zwrócić pieniędzy. Obciążenie zwrotne przypisane do identyfikatora "
+"sprzedaży"
+
+#: includes/paylane-errors.php:100
+msgid "Cannot refund. Exceeded available refund amount"
+msgstr "Nie można zwrócić pieniędzy. Przekroczono dostępną kwotę zwrotu"
+
+#: includes/paylane-errors.php:101
+msgid "Cannot refund. Sale is already completely refunded"
+msgstr "Nie można zwrócić pieniędzy. Sprzedaż została już całkowicie zwrócona"
+
+#: includes/paylane-errors.php:102
+msgid "Cannot refund this sale"
+msgstr "Nie można zwrócić tej sprzedaży"
+
+#: includes/paylane-errors.php:103
+msgid "Cannot refund. Reversal assigned to Sale ID"
+msgstr ""
+"Nie można zwrócić pieniędzy. Cofnięcie przypisane do identyfikatora sprzedaży"
+
+#: includes/paylane-errors.php:104
+msgid "Refund ID not found"
+msgstr "Nie znaleziono identyfikatora zwrotu"
+
+#: includes/paylane-errors.php:106
+msgid "Sale ID list is not set or empty"
+msgstr "Lista identyfikatorów sprzedaży nie jest ustawiona lub jest pusta"
+
+#: includes/paylane-errors.php:107
+msgid "Sale ID list is too large"
+msgstr "Lista identyfikatorów sprzedaży jest za duża"
+
+#: includes/paylane-errors.php:109
+msgid "Sale ID / Sale error ID not found"
+msgstr ""
+"Identyfikator sprzedaży / Identyfikator błędu sprzedaży nie został znaleziony"
+
+#: includes/paylane-errors.php:110
+msgid "Too many sales / sale errors found"
+msgstr "Znaleziono zbyt wiele błędów sprzedaży / błędów sprzedaży"
+
+#: includes/paylane-errors.php:112
+msgid "Internal server error. Please try again later"
+msgstr "Błąd wewnętrzny serwera. Spróbuj ponownie później"
+
+#: includes/paylane-errors.php:113
+msgid "Payment gateway error. Please try again later"
+msgstr "Błąd bramki płatności. Spróbuj ponownie później"
+
+#: includes/paylane-errors.php:114
+msgid "Payment method not allowed for this account"
+msgstr "Metoda płatności jest niedozwolona dla tego konta"
+
+#: includes/paylane-errors.php:115
+msgid "Service not accessible for this account"
+msgstr "Usługa niedostępna dla tego konta"
+
+#: includes/paylane-errors.php:116
+msgid "This merchant account is inactive"
+msgstr "To konto merchanta jest nieaktywne"
+
+#: includes/paylane-errors.php:117
+msgid "No currency rate in Currency Converter"
+msgstr "Brak kursu walut w przeliczniku walut"
+
+#: includes/paylane-errors.php:118
+msgid "Sale error conversion appeard"
+msgstr "Odwołanie konwersji błędu sprzedaży"
+
+#: includes/paylane-errors.php:119
+msgid "Request is missing parameter"
+msgstr "W żądaniu brakuje parametru"
+
+#: includes/paylane-errors.php:120
+msgid "Requests parameter is not valid"
+msgstr "Parametr żądania jest nieprawidłowy"
+
+#: includes/paylane-errors.php:122
+msgid "Fraud attempt detected"
+msgstr "Wykryto próbę oszustwa"
+
+#: includes/paylane-errors.php:124
+msgid "Blacklisted account number found"
+msgstr "Znaleziono numer konta z czarnej listy"
+
+#: includes/paylane-errors.php:125
+msgid "Blacklisted card country found"
+msgstr "Znaleziono kraj karty z czarnej listy"
+
+#: includes/paylane-errors.php:126
+msgid "Blacklisted card number found"
+msgstr "Znaleziono numer karty z czarnej listy"
+
+#: includes/paylane-errors.php:127
+msgid "Blacklisted customer country found"
+msgstr "Znaleziono kraj klienta z czarnej listy"
+
+#: includes/paylane-errors.php:128
+msgid "Blacklisted customer email found"
+msgstr "Znaleziono e-mail klienta na czarnej liście"
+
+#: includes/paylane-errors.php:129
+msgid "Blacklisted customer IP address found"
+msgstr "Znaleziono adres IP klienta z czarnej listy"
+
+#: includes/paylane-errors.php:130
+msgid "Unknown blacklisting operation"
+msgstr "Nieznana operacja na czarnej liście"
+
+#: includes/paylane-errors.php:132
+msgid ""
+"3-D Secure authentication server error. Please try again later or use card "
+"not enrolled in 3-D Secure"
+msgstr ""
+"Błąd serwera uwierzytelniania 3-D Secure. Spróbuj ponownie później lub użyj "
+"karty niezarejestrowanej w 3-D Secure"
+
+#: includes/paylane-errors.php:133
+msgid ""
+"3-D Secure authentication server problem. Please try again later or use card "
+"not enrolled in 3-D Secure"
+msgstr ""
+"Problem z serwerem 3-D Secure. Spróbuj ponownie później lub użyj karty "
+"niezarejestrowanej w 3-D Secure"
+
+#: includes/paylane-errors.php:134
+msgid ""
+"3-D Secure authentication failed. Credit card cannot be accepted for payment"
+msgstr ""
+"Uwierzytelnianie 3-D Secure nie powiodło się. Karta kredytowa nie może być "
+"przyjęta do zapłaty"
+
+#: includes/paylane-errors.php:135
+msgid "3-D Secure authentication failed. Card declined"
+msgstr "Uwierzytelnienie 3-D Secure nie powiodło się. Karta odrzucona"
+
+#: includes/paylane-errors.php:143
+msgid "Back URL is not valid"
+msgstr "Powrotny adres URL jest nieprawidłowy"
+
+#: includes/paylane-errors.php:146
+msgid ""
+"Unable to verify enrollment for 3-D Secure. You can perform a normal payment "
+"without 3-D Secure or decline the transaction"
+msgstr ""
+"Nie można zweryfikować rejestracji w 3-D Secure. Możesz dokonać zwykłej "
+"płatności bez zabezpieczenia 3-D Secure lub odrzucić transakcję"
+
+#: includes/paylane-errors.php:148
+msgid "Secure3d ID is not valid"
+msgstr "Identyfikator Secure3d jest nieprawidłowy"
+
+#: includes/paylane-errors.php:149
+msgid "Authentication response message is not valid"
+msgstr "Komunikat odpowiedzi uwierzytelnienia jest nieprawidłowy"
+
+#: includes/paylane-errors.php:150
+msgid "Secure3d ID not found"
+msgstr "Nie znaleziono identyfikatora Secure3d"
+
+#: includes/paylane-errors.php:151
+msgid "3-D Secure authentication was completed before"
+msgstr "Uwierzytelnianie 3-D Secure zostało zakończone wcześniej"
+
+#: includes/paylane-errors.php:152
+msgid ""
+"Authentication is not available for this credit card. You can perform a "
+"normal payment without 3-D Secure or decline the transaction"
+msgstr ""
+"Uwierzytelnianie nie jest dostępne dla tej karty kredytowej. Możesz dokonać "
+"zwykłej płatności bez 3-D Secure lub odrzucić transakcję"
+
+#: includes/paylane-errors.php:154
+msgid "Completed authentication with this Secure3d ID not found"
+msgstr "Nie znaleziono identyfikatora Secure3d po zakończonej płatności"
+
+#: includes/paylane-errors.php:155
+msgid "Sale and 3-D Secure card number are different"
+msgstr "Numer karty sprzedaży i 3-D Secure są różne"
+
+#: includes/paylane-errors.php:156
+msgid "Sale and 3-D Secure card expiration year are different"
+msgstr "Rok wygaśnięcia karty sprzedaży i 3-D Secure są różne"
+
+#: includes/paylane-errors.php:157
+msgid "Sale and 3-D Secure card expiration month are different"
+msgstr "Miesiąc wygaśnięcia karty sprzedaży i 3-D Secure są różne"
+
+#: includes/paylane-errors.php:158
+msgid "Sale and 3-D Secure amount are different"
+msgstr "Kwota sprzedaży i 3-D Secure są różne"
+
+#: includes/paylane-errors.php:159
+msgid "Sale and 3-D Secure currency code are different"
+msgstr "Waluta sprzedaży i 3-D Secure są różne"
+
+#: includes/paylane-errors.php:160
+msgid "Sale was performed for this Secure3d ID"
+msgstr "Sprzedaż została przeprowadzona dla tego identyfikatora Secure3d"
+
+#: includes/paylane-errors.php:162 Gateway/Base.php:623
+msgid "Unrecognized or malformed token"
+msgstr "Uszkodzony token"
+
+#: includes/paylane-errors.php:163
+msgid "The provided token does not exist"
+msgstr "Podany token nie istnieje"
+
+#: includes/paylane-errors.php:165
+msgid "Service fee amount not set"
+msgstr "Nie ustalono kwoty opłaty serwisowej"
+
+#: includes/paylane-errors.php:166
+msgid "Id sub-merchant not set"
+msgstr "Identyfikator sub-merchanta nie został ustawiony"
+
+#: includes/paylane-errors.php:167
+msgid "Account cannot process sub-merchant transactions"
+msgstr "Konto nie może przetwarzać transakcji sub-merchanta"
+
+#: includes/paylane-errors.php:168
+msgid "Invalid sub-merchant id"
+msgstr "Nieprawidłowy identyfikator sub-merchanta"
+
+#: includes/paylane-errors.php:169
+msgid "Sub-merchant is disabled"
+msgstr "Sub-merchant jest wyłączony"
+
+#: includes/paylane-errors.php:170
+msgid "Service fee amount is too low"
+msgstr "Opłata za usługę jest zbyt niska"
+
+#: includes/paylane-errors.php:171
+msgid "Invalid service fee amount"
+msgstr "Nieprawidłowa kwota opłaty za usługę"
+
+#: includes/paylane-errors.php:172
+msgid "Sub-merchant ID mismatch"
+msgstr "Niezgodność identyfikatora sub-merchanta"
+
+#: includes/paylane-errors.php:174
+msgid "Wrong input data"
+msgstr "Błędne dane wejściowe"
+
+#: includes/paylane-errors.php:175
+msgid "Paypal server error"
+msgstr "Błąd serwera PayPal"
+
+#: includes/paylane-errors.php:176
+msgid "Polskie ePłatności token not found in database"
+msgstr "Nie znaleziono tokena Polskie ePłatności w bazie danych"
+
+#: includes/paylane-errors.php:177
+msgid "Transaction not found"
+msgstr "Nie znaleziono transakcji"
+
+#: includes/paylane-errors.php:178
+msgid "Paypal checkout id not found in database"
+msgstr "Nie znaleziono identyfikatora płatności PayPal w bazie danych"
+
+#: includes/paylane-errors.php:179
+msgid "Wrong PayPal rebilling period"
+msgstr "Niewłaściwy okres rozliczeniowy PayPal"
+
+#: includes/paylane-errors.php:180
+msgid "Wrong PayPal rebilling start date"
+msgstr "Nieprawidłowa data początkowa fakturowania PayPal"
+
+#: includes/paylane-errors.php:181
+msgid "PayPal recurring profile not created"
+msgstr "Profil cykliczny PayPal nie został utworzony"
+
+#: includes/paylane-errors.php:182
+msgid "PayPal recurring already disabled"
+msgstr "Płatności cykliczne PayPal są już wyłączone"
+
+#: includes/paylane-errors.php:183
+msgid "PayPal sale authorization not found"
+msgstr "Nie znaleziono autoryzacji sprzedaży PayPal"
+
+#: includes/paylane-errors.php:184
+msgid "PayPal recurring not found"
+msgstr "Nie znaleziono cyklicznego PayPal"
+
+#: includes/paylane-errors.php:185
+msgid "Transaction cancelled"
+msgstr "Transakcja anulowana"
+
+#: includes/paylane-errors.php:186
+msgid "Locale code is not valid"
+msgstr "Kod ustawień regionalnych jest nieprawidłowy"
+
+#: includes/paylane-errors.php:187
+msgid "PayPal permissions not granted"
+msgstr "Nie przyznano uprawnień PayPal"
+
+#: includes/paylane-errors.php:188
+msgid "PayPal transaciton not finished"
+msgstr "Transakcja PayPal nie została zakończona"
+
+#: includes/paylane-errors.php:190
+msgid "Transaction cannot be settled"
+msgstr "Transakcji nie można rozliczyć"
+
+#: includes/paylane-errors.php:191
+msgid "Transaction has expired"
+msgstr "Transakcja wygasła"
+
+#: includes/paylane-errors.php:192
+msgid "Transaction aborted by customer"
+msgstr "Transakcja przerwana przez klienta"
+
+#: includes/paylane-errors.php:194
+msgid "Unknown notification format"
+msgstr "Nieznany format powiadomienia"
+
+#: includes/paylane-errors.php:195
+msgid "Unknown transaction identifier"
+msgstr "Nieznany identyfikator transakcji"
+
+#: includes/paylane-errors.php:196
+msgid "Transaction notification error"
+msgstr "Błąd powiadomienia o transakcji"
+
+#: includes/paylane-errors.php:197
+msgid "Unknown notification confirmation status"
+msgstr "Nieznany status potwierdzenia powiadomienia"
+
+#: includes/paylane-errors.php:198
+msgid "Transaction amount and notification amount are different"
+msgstr "Kwota transakcji i powiadomienia są różne"
+
+#: includes/paylane-errors.php:199
+msgid "Transaction unsuccessfull"
+msgstr "Transakcja nieudana"
+
+#: includes/paylane-errors.php:200
+msgid "Transaction currency And notification currency are different"
+msgstr "Waluta transakcji i powiadomienia są różne"
+
+#: includes/paylane-errors.php:201
+msgid "Transaction checksum incorrect"
+msgstr "Niepoprawna suma kontrolna transakcji"
+
+#: includes/paylane-errors.php:202
+msgid "Party ID mismatch"
+msgstr "Niezgodność identyfikatora strony"
+
+#: includes/paylane-errors.php:204
+msgid "Unknown Project type"
+msgstr "Nieznany typ projektu"
+
+#: includes/paylane-errors.php:205
+msgid "Notification checksum incorrect"
+msgstr "Niepoprawna suma kontrolna powiadomienia"
+
+#: includes/paylane-errors.php:207
+msgid "Promo code does not exist"
+msgstr "Kod promocyjny nie istnieje"
+
+#: includes/paylane-errors.php:208
+msgid "Promo code has been disabled"
+msgstr "Kod promocyjny został wyłączony"
+
+#: includes/paylane-errors.php:209
+msgid "Promo code has expired"
+msgstr "Kod promocyjny wygasł"
+
+#: includes/paylane-errors.php:211
+msgid "Invalid user name"
+msgstr "Zła nazwa użytkownika"
+
+#: includes/paylane-errors.php:212
+msgid "Invalid password"
+msgstr "Nieprawidłowe hasło"
+
+#: includes/paylane-errors.php:213
+msgid "Invalid email address"
+msgstr "Niepoprawny adres email"
+
+#: includes/paylane-errors.php:214
+msgid "User name already exists"
+msgstr "Nazwa użytkownika już istnieje"
+
+#: includes/paylane-errors.php:215
+msgid "Wrong company name"
+msgstr "Zła nazwa firmy"
+
+#: includes/paylane-errors.php:216
+msgid "Wrong user name"
+msgstr "Zła nazwa użytkownika"
+
+#: includes/paylane-errors.php:217
+msgid "Email already exists"
+msgstr "Email już istnieje"
+
+#: includes/paylane-errors.php:219
+msgid "This Device ID is disabled"
+msgstr "Ten identyfikator urządzenia jest wyłączony"
+
+#: includes/paylane-errors.php:220
+msgid "Device PIN is not valid"
+msgstr "Kod PIN urządzenia jest nieprawidłowy"
+
+#: includes/paylane-errors.php:221
+msgid "Device ID length is not valid"
+msgstr "Długość identyfikatora urządzenia jest nieprawidłowa"
+
+#: includes/paylane-errors.php:223
+msgid "Unknown payment method, could not load bank module"
+msgstr "Nieznana metoda płatności, nie można załadować modułu banku"
+
+#: includes/paylane-errors.php:224
+msgid "Could not load bank parser module"
+msgstr "Nie można załadować modułu analizatora składni banku"
+
+#: includes/paylane-errors.php:225
+msgid "Sale and bank transfer amount don't match"
+msgstr "Kwota sprzedaży i przelewu bankowego nie pasuje"
+
+#: includes/paylane-errors.php:226
+msgid "Transaction with transfer title not found in database"
+msgstr "Transakcja z tytułem przelewu nie została znaleziona w bazie danych"
+
+#: includes/paylane-errors.php:227
+msgid "Transaction unsuccessful or aborted by payer"
+msgstr "Transakcja nieudana lub przerwana przez płatnika"
+
+#: includes/paylane-errors.php:229
+msgid "Delivery zip code is not valid"
+msgstr "Kod pocztowy dostawy jest nieprawidłowy"
+
+#: includes/paylane-errors.php:230
+msgid "Delivery address (street and house) is not valid"
+msgstr "Adres dostawy (ulica i dom) jest nieprawidłowy"
+
+#: includes/paylane-errors.php:231
+msgid "Delivery country is not valid"
+msgstr "Kraj dostawy jest nieprawidłowy"
+
+#: includes/paylane-errors.php:233
+msgid "Delivery city is not valid"
+msgstr "Miasto dostawy jest nieprawidłowe"
+
+#: includes/paylane-errors.php:233
+msgid "Delivery risk is not valid"
+msgstr "Ryzyko dostawy jest nieprawidłowe"
+
+#: includes/paylane-errors.php:234
+msgid "Delivery risk is not set"
+msgstr "Ryzyko dostawy nie jest ustawione"
+
+#: includes/paylane-errors.php:235
+msgid "Delivery country is not set"
+msgstr "Kraj dostawy nie jest ustawiony"
+
+#: includes/paylane-errors.php:237
+msgid "Source amount and summed items amount not equal"
+msgstr "Kwota źródła i suma elementów nie są równe"
+
+#: includes/paylane-errors.php:238
+msgid "Invalid invoice prefix value"
+msgstr "Nieprawidłowa wartość prefiksu faktury"
+
+#: includes/paylane-errors.php:239
+msgid "Invalid invoice vat id"
+msgstr "Nieprawidłowy identyfikator VAT na fakturze"
+
+#: includes/paylane-errors.php:240
+msgid "Invalid invoice vat rate"
+msgstr "Nieprawidłowa stawka VAT na fakturze"
+
+#: includes/paylane-errors.php:241
+msgid "Sale id is not valid"
+msgstr "Identyfikator sprzedaży jest nieprawidłowy"
+
+#: includes/paylane-errors.php:242
+msgid "Refund id is not valid"
+msgstr "Identyfikator zwrotu jest nieprawidłowy"
+
+#: includes/paylane-errors.php:243
+msgid "Incorrect transactions number"
+msgstr "Niepoprawny numer transakcji"
+
+#: includes/paylane-errors.php:244
+msgid "Invalid language"
+msgstr "Niepoprawny język"
+
+#: includes/paylane-errors.php:245
+msgid "Original invoice have different param value"
+msgstr "Oryginalna faktura ma inną wartość param"
+
+#: includes/paylane-errors.php:246
+msgid "You have to perform sale invoice first"
+msgstr "Najpierw musisz wykonać fakturę sprzedaży"
+
+#: includes/paylane-errors.php:247
+msgid "Invoice not found"
+msgstr "Nie znaleziono faktury"
+
+#: includes/paylane-errors.php:248
+msgid "Invoice already created"
+msgstr "Faktura już utworzona"
+
+#: includes/paylane-errors.php:249
+msgid "Source transaction not found"
+msgstr "Nie znaleziono transakcji źródłowej"
+
+#: includes/paylane-errors.php:250
+msgid "One of previous refunds have no invoice"
+msgstr "Jeden z poprzednich zwrotów nie ma faktury"
+
+#: includes/paylane-errors.php:252
+msgid "No invoice data found"
+msgstr "Nie znaleziono danych faktury"
+
+#: includes/paylane-errors.php:253
+msgid "Receiver already exported"
+msgstr "Odbiornik został już wyeksportowany"
+
+#: includes/paylane-errors.php:254
+msgid "Missing Symfonia credit (Ma) account configuration for MID"
+msgstr "Brak konfiguracji konta kredytowego Symfonia (Ma) dla MID"
+
+#: includes/paylane-errors.php:255
+msgid "Missing Symfonia debit (Wn) account configuration for MID"
+msgstr "Brak konfiguracji konta debetowego Symfonia (Wn) dla MID"
+
+#: includes/paylane-errors.php:257
+msgid "No transaction export data found for the specified search criteria"
+msgstr ""
+"Nie znaleziono danych eksportu transakcji dla określonych kryteriów "
+"wyszukiwania"
+
+#: includes/paylane-errors.php:259
+msgid "Too many search results, please narrow down the search criteria"
+msgstr "Zbyt wiele wyników wyszukiwania, zawęź kryteria wyszukiwania"
+
+#: includes/paylane-errors.php:260
+msgid "The parameter is invalid"
+msgstr "Parametr jest nieprawidłowy"
+
+#: includes/paylane-errors.php:262
+msgid "Invalid captcha"
+msgstr "Niepoprawna CAPTCHA"
+
+#: includes/paylane-errors.php:263
+msgid "No such company record exists"
+msgstr "Nie ma takiego rejestru firmy"
+
+#: includes/paylane-errors.php:265
+msgid "The IP address is not valid"
+msgstr "Adres IP jest nieprawidłowy"
+
+#: includes/paylane-errors.php:266
+msgid "API passwords must be at least 10 characters in length"
+msgstr "Hasła API muszą mieć co najmniej 10 znaków"
+
+#: includes/paylane-errors.php:267
+msgid "The uploaded Secure Form logo appears to be malformed or corrupt"
+msgstr "Przesłane logo Secure Form wygląda na zniekształcone lub uszkodzone"
+
+#: includes/paylane-errors.php:268
+msgid ""
+"The Secure Form description must be a text (no HTML) value up to 500 "
+"characters in length"
+msgstr ""
+"Opis Secure Form musi być wartością tekstową (bez HTML) o długości do 500 "
+"znaków"
+
+#: includes/paylane-errors.php:269
+msgid "Secure group name cannot be blank"
+msgstr "Nazwa bezpiecznej grupy nie może być pusta"
+
+#: includes/paylane-settings.php:25
+msgid "Version"
+msgstr "Wersja"
+
+#: includes/paylane-settings.php:28
+msgid "Name"
+msgstr "Nazwa płatności"
+
+#: includes/paylane-settings.php:30
+msgid "Polskie ePłatności"
+msgstr "Polskie ePłatności"
+
+#: includes/paylane-settings.php:34
+msgid "Description"
+msgstr "Opis"
+
+#: includes/paylane-settings.php:36
+msgid "Description."
+msgstr "Opis."
+
+#: includes/paylane-settings.php:37
+msgid "Pay with Polskie ePłatności."
+msgstr "Zapłać z Polskie ePłatności."
+
+#: includes/paylane-settings.php:40
+msgid "Polskie ePłatności connection method"
+msgstr "Metoda połączenia z Polskie ePłatności"
+
+#: includes/paylane-settings.php:42
+msgid "Set the Polskie ePłatności connection method SecureForm/API."
+msgstr "Ustaw metodę płatności Polskie ePłatności: SecureForm lub API"
+
+#: includes/paylane-settings.php:46
+msgid "API"
+msgstr "API"
+
+#: includes/paylane-settings.php:47
+msgid "SecureForm"
+msgstr "SecureForm"
+
+#: includes/paylane-settings.php:52
+msgid "API Login"
+msgstr "API Login"
+
+#: includes/paylane-settings.php:54
+msgid ""
+"The API Login can be found in the merchant panel [<a href=\"https://merchant."
+"paylane.com\" rel=\"noopener\" target=\"_blank\">https://merchant.paylane."
+"com</a>] in Administration -> Integration. <strong>API Login is not a login "
+"for the merchant panel!</strong>"
+msgstr ""
+"Login API znajdziesz w merchant panelu [<a href=\"https://merchant.paylane."
+"com\" rel=\"noopener\" target=\"_blank\">https://merchant.paylane.com</a>] w "
+"Administracja -> Integracja. <strong>Login API nie jest loginem do merchant "
+"panelu!</strong>"
+
+#: includes/paylane-settings.php:59
+msgid "API Password"
+msgstr "Hasło API"
+
+#: includes/paylane-settings.php:61
+msgid ""
+"The API Password can be found in the merchant panel [<a href=\"https://"
+"merchant.paylane.com\" rel=\"noopener\" target=\"_blank\">https://merchant."
+"paylane.com</a>] in Administration -> Integration. <strong>API Password is "
+"not a password for the merchant panel!</strong>"
+msgstr ""
+"Hasło API znajdziesz w merchant panelu [<a href=\"https://merchant.paylane."
+"com\" rel=\"noopener\" target=\"_blank\">https://merchant.paylane.com</a>] w "
+"Administracja -> Integracja. <strong>Hasło API nie jest hasłem do merchant "
+"panelu!</strong>"
+
+#: includes/paylane-settings.php:66
+msgid "Public API key"
+msgstr "Publiczny klucz API"
+
+#: includes/paylane-settings.php:71
+msgid "Hash Salt"
+msgstr "Hash Salt"
+
+#: includes/paylane-settings.php:73
+msgid "Secret hash salt value"
+msgstr "Ukryta wartość Hash Salt"
+
+#: includes/paylane-settings.php:77
+msgid "Successful order status"
+msgstr "Status udanej transakcji"
+
+#: includes/paylane-settings.php:83
+msgid "Redirect method"
+msgstr "Metoda przekierowania"
+
+#: includes/paylane-settings.php:86
+msgid "Polskie ePłatności response redirect method"
+msgstr "Metoda przekierowania Polskie ePłatności"
+
+#: includes/paylane-settings.php:90
+msgid "GET"
+msgstr "GET"
+
+#: includes/paylane-settings.php:91
+msgid "POST"
+msgstr "POST"
+
+#: includes/paylane-settings.php:97
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: includes/paylane-settings.php:99
+msgid ""
+"Select <strong>basic</strong> if you want to give your own css styles for "
+"the form."
+msgstr ""
+"Wybierz podstawowy jeżeli chcesz nadać własne style css dla formularza."
+
+#: includes/paylane-settings.php:105
+msgid "Basic"
+msgstr "Podstawowy"
+
+#: includes/paylane-settings.php:106 woocommerce-gateway-paylane.php:277
+msgid "Polskie ePłatności Online"
+msgstr "Polskie ePłatności Online"
+
+#: includes/paylane-settings.php:110
+msgid "Display payment methods logo"
+msgstr "Wyświetl logo metod płatności"
+
+#: includes/paylane-settings.php:115
+msgid "Log events"
+msgstr "Rejestruj zdarzenia"
+
+#: includes/paylane-settings.php:115
+msgid "recommended"
+msgstr "zalecane"
+
+#: includes/paylane-settings.php:118
+msgid "Store debug messages"
+msgstr "Przechowuj wiadomości debugowania"
+
+#: includes/paylane-settings.php:119
+#, php-format
+msgid ""
+"To see logs go to this %ssite%s and choose woocommerce-gateway-paylane-xxx."
+"log"
+msgstr ""
+"Aby zobaczyć dzienniki, przejdź na tę %sstronę%s i wybierz woocommerce-"
+"gateway-paylane-xxx.log"
+
+#: includes/paylane-settings.php:122
+msgid "Notification adress"
+msgstr "Adres  powiadomień"
+
+#: includes/paylane-settings.php:126
+#, php-format
+msgid ""
+"Notifications is a service that simplifies automatic communication between "
+"your shop and Polskie ePłatności. A notification has information about "
+"payment status.<br><br><big><strong>It is Highly recommended to enable "
+"notifications</strong></big>.<br><br><strong>To enable notifications</"
+"strong>:<br>- Chose individual login and password and enter them below (it "
+"should be safe login and password, <strong>not the same as API login/"
+"password or merchant panel login/password</strong>)<br><br>- Send to us on e-"
+"mail (support@paylane.com) you notification login, password and notification "
+"address, <br>(Your notification address: <code>%s</code>)<br><br>We will "
+"send you Notification token to fill inside this field"
+msgstr ""
+"Notyfikacje (powiadomienia) to informacje przesyłane przez system Polskie "
+"ePłatności do Twojego sklepu. Notyfikacje zawierają informacje o statusach "
+"płatności.<br><br><big><strong>Zalecamy aby je włączyć</strong></big>."
+"<br><br><strong>Co zrobić aby włączyć notyfikacje:</strong>:<br>- Wymyśl i "
+"wpisz poniżej login notyfikacji i hasło notyfikacji (<strong>nie ma być to "
+"login i hasło do logowania do sklepu ani do merchant panelu, ani też do API "
+"- ma to być zupełnie nowy login i hasło</strong>)<br><br>- Wyślij nam na "
+"adres support@paylane.com login notyfikacji, hasło notyfikacji oraz adres "
+"notyfikacji, <br>(Twój adres notyfikacji: <code>%s</code>)<br><br>My "
+"odeślemy Ci token notyfikacji, który musisz wpisać w poniższe pole."
+
+#: includes/paylane-settings.php:131 includes/paylane-settings.php:133
+msgid "Notification Login"
+msgstr "Login notyfikacji"
+
+#: includes/paylane-settings.php:138 includes/paylane-settings.php:140
+msgid "Notification Password"
+msgstr "Hasło notyfikacji"
+
+#: includes/paylane-settings.php:145 includes/paylane-settings.php:147
+msgid "Notification Token"
+msgstr "Token notyfikacji"
+
+#: includes/paylane-settings.php:152 Gateway/Secure.php:23
+msgid "Secure Form"
+msgstr "Secure Form"
+
+#: includes/paylane-settings.php:154
+msgid ""
+"Customers will be redirected to the Polskie ePłatności Secure Form for "
+"payment"
+msgstr ""
+"Klienci zostaną przekierowani do formularza płatności Polskie ePłatności w "
+"celu dokonania płatności"
+
+#: includes/paylane-settings.php:157 includes/paylane-settings.php:175
+#: includes/paylane-settings.php:198 includes/paylane-settings.php:209
+#: includes/paylane-settings.php:220 includes/paylane-settings.php:231
+#: includes/paylane-settings.php:242 includes/paylane-settings.php:253
+msgid "Custom Payment Method Name"
+msgstr "Nazwa płatności (własna) "
+
+#: includes/paylane-settings.php:163
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: includes/paylane-settings.php:165
+msgid ""
+"You can find your Merchant ID in the Merchant Panel (Settings => Secure Form "
+"=> Integration)"
+msgstr ""
+"Możesz znaleźćswój Merchant ID w merchant panelu PayLane (Administracja => "
+"integracja => Secure Form) "
+
+#: includes/paylane-settings.php:170 includes/paylane-settings.php:324
+#: includes/paylane-settings.php:326 Gateway/CreditCard.php:21
+#: Gateway/CreditCard.php:23 Gateway/CreditCard.php:31
+msgid "Credit Card"
+msgstr "Karta płatnicza"
+
+#: includes/paylane-settings.php:193 includes/paylane-settings.php:318
+#: includes/paylane-settings.php:320
+msgid "Bank Wire Transfer"
+msgstr "Szybki przelew bankowy"
+
+#: includes/paylane-settings.php:204
+msgid "Direct Debit (SEPA)"
+msgstr "Direct Debit (SEPA)"
+
+#: includes/paylane-settings.php:215
+msgid "SOFORT"
+msgstr "SOFORT"
+
+#: includes/paylane-settings.php:226
+msgid "PAYPAL"
+msgstr "PAYPAL"
+
+#: includes/paylane-settings.php:237 includes/paylane-settings.php:330
+#: includes/paylane-settings.php:332 Gateway/Ideal.php:23 Gateway/Ideal.php:25
+#: Gateway/Ideal.php:33
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: includes/paylane-settings.php:248 Gateway/Blik0.php:23 Gateway/Blik0.php:31
+msgid "BLIK level 0"
+msgstr "BLIK level 0"
+
+#: includes/paylane-settings.php:259 Gateway/ApplePay.php:30
+#: Gateway/ApplePay.php:32 Gateway/ApplePay.php:41
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: includes/paylane-settings.php:262
+msgid ""
+"<strong>What to do to enable Apple Pay:</strong><br>- Send an email to "
+"support@paylane.com asking you to enable Apple Pay on your account<br>- If "
+"you use the payment method through the API, please request a <b>certificate</"
+"b><br>- Paste the <b>certificate</b> into the certificate field<br>- Tell us "
+"when you will finish above activities"
+msgstr ""
+"<strong>Co zrobić aby włączyć Apple Pay:</strong><br>\n"
+"                       - Wyślij nam na adres support@paylane.com prośbę o\n"
+"uruchomienie Apple Pay na swoim koncie<br>\n"
+"                        - W przypadku korzystania z metody płatnosci przez\n"
+"API poproś o nadanie <b>certyfikatu</b><br>\n"
+"                        - Wklej <b>certyfikat</b> w pole certyfikat<br>\n"
+"                        - Poinformuj nas o wykonaniu powyższych czynności."
+
+#: includes/paylane-settings.php:266
+msgid "Button Style"
+msgstr "Styl przycisku"
+
+#: includes/paylane-settings.php:272
+msgid "Black"
+msgstr "Czarny"
+
+#: includes/paylane-settings.php:273
+msgid "White"
+msgstr "Biały"
+
+#: includes/paylane-settings.php:274
+msgid "White with outline border"
+msgstr "Biały z obramowaniem"
+
+#: includes/paylane-settings.php:278
+msgid "Language"
+msgstr "Język"
+
+#: includes/paylane-settings.php:284
+msgid "Auto"
+msgstr "Automatyczny"
+
+#: includes/paylane-settings.php:285
+msgid "PL"
+msgstr "PL"
+
+#: includes/paylane-settings.php:286
+msgid "EN"
+msgstr "EN"
+
+#: includes/paylane-settings.php:287
+msgid "DE"
+msgstr "DE"
+
+#: includes/paylane-settings.php:288
+msgid "FR"
+msgstr "FR"
+
+#: includes/paylane-settings.php:292
+msgid "Certificate"
+msgstr "Certyfikat"
+
+#: includes/paylane-settings.php:302
+msgid "Enable/Disable payment methods"
+msgstr "Włącz/Wyłącz metody płatności"
+
+#: includes/paylane-settings.php:308 includes/paylane-settings.php:314
+#: includes/paylane-settings.php:320 includes/paylane-settings.php:326
+#: includes/paylane-settings.php:332 includes/paylane-settings.php:338
+#: includes/paylane-settings.php:344 includes/paylane-settings.php:350
+#, php-format
+msgid "Enable %s standard"
+msgstr "Włącz standard %s"
+
+#: includes/paylane-settings.php:336 includes/paylane-settings.php:338
+#: Gateway/Paypal.php:23 Gateway/Paypal.php:25 Gateway/Paypal.php:34
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/paylane-settings.php:342 includes/paylane-settings.php:344
+#: Gateway/Sepa.php:23 Gateway/Sepa.php:25 Gateway/Sepa.php:33
+msgid "SEPA Direct Debit"
+msgstr "Polecenie zapłaty SEPA"
+
+#: includes/paylane-settings.php:348 includes/paylane-settings.php:350
+#: Gateway/Sofort.php:23 Gateway/Sofort.php:25 Gateway/Sofort.php:33
+msgid "Sofort"
+msgstr "Sofort"
+
+#: views/admin/notices/woocommerce-is-missing.php:4
+msgid "The Polskie ePłatności payment module requires WooCommerce to run"
+msgstr ""
+"Moduł Polskie ePłatności wymaga WooCommerce do poprawnego działania. Musisz "
+"go ściągnąć."
+
+#: woocommerce-gateway-paylane.php:104
+msgid "Create account"
+msgstr "Stwórz konto"
+
+#: woocommerce-gateway-paylane.php:134
+msgid "This API method is not allowed for this merchant account."
+msgstr "Ta metoda API nie jest dozwolona na tym koncie"
+
+#: woocommerce-gateway-paylane.php:423 woocommerce-gateway-paylane.php:424
+msgid "Card not enrolled in 3-D Secure"
+msgstr "Karta niezarejestrowana w 3-D Secure"
+
+#: woocommerce-gateway-paylane.php:428 woocommerce-gateway-paylane.php:429
+msgid "3-D Secure verification failed"
+msgstr "Weryfikacja 3-D Secure nie powiodła się"
+
+#: woocommerce-gateway-paylane.php:476 woocommerce-gateway-paylane.php:482
+#: woocommerce-gateway-paylane.php:508 woocommerce-gateway-paylane.php:514
+msgid "Success, id_sale:"
+msgstr "Sukces, id_sale:"
+
+#: woocommerce-gateway-paylane.php:523 woocommerce-gateway-paylane.php:615
+#: woocommerce-gateway-paylane.php:1095
+msgid "Error ID:"
+msgstr "ID Błędu:"
+
+#: woocommerce-gateway-paylane.php:529 woocommerce-gateway-paylane.php:620
+#: woocommerce-gateway-paylane.php:1101
+msgid "Error number:"
+msgstr "Numer błędu:"
+
+#: woocommerce-gateway-paylane.php:533 woocommerce-gateway-paylane.php:624
+#: woocommerce-gateway-paylane.php:1105
+msgid "Error description:"
+msgstr "Opis błędu:"
+
+#: woocommerce-gateway-paylane.php:630 woocommerce-gateway-paylane.php:631
+msgid "Payment canceled"
+msgstr "Płatność anulowana"
+
+#: woocommerce-gateway-paylane.php:678 woocommerce-gateway-paylane.php:794
+msgid "Payment awaiting confirmation"
+msgstr "Transakcja oczekująca na potwierdzenie"
+
+#: woocommerce-gateway-paylane.php:689 woocommerce-gateway-paylane.php:690
+msgid "Wrong hash"
+msgstr "Błędny HASH"
+
+#: woocommerce-gateway-paylane.php:751
+msgid "Error: wrong hash"
+msgstr "Błąd: Błędny hash"
+
+#: woocommerce-gateway-paylane.php:755
+msgid "Error, 3-D auth transaction declined"
+msgstr "Błąd, Nieudana autoryzacja 3-D secure"
+
+#: woocommerce-gateway-paylane.php:780
+msgid "Error 3-D Secure payment"
+msgstr "Błąd 3-D Secure"
+
+#: woocommerce-gateway-paylane.php:916
+msgid "Order no.: "
+msgstr "Numer zamówienia:"
+
+#: woocommerce-gateway-paylane.php:951
+msgid "Polskie ePłatności transaction status: "
+msgstr "Status Transakcji"
+
+#: woocommerce-gateway-paylane.php:1023
+#, php-format
+msgid "Transaction failed with reason: %s."
+msgstr "Transakcja nieudana, powód: %s. "
+
+#: woocommerce-gateway-paylane.php:1047
+#, php-format
+msgid "Transaction confirmed, payment method: %s. %s"
+msgstr "Transakcja potwierdzona, metoda płatności: %s. %s"
+
+#: woocommerce-gateway-paylane.php:1108
+msgid "Refund Failed:"
+msgstr "Zwrot zakończony niepowodzeniem"
+
+#: woocommerce-gateway-paylane.php:1285
+msgid ""
+"Unable to create certificate folder. Please create \"./well-known/apple-"
+"developer-merchantid-domain-association.txt\" file into your main domain "
+"directory with certificate text."
+msgstr ""
+"Nie można stworzyć katalogu dla certyfikatu. Utwórz plik \"./well-known/"
+"apple-developer-merchantid-domain-association.txt\" w głównym katalogu "
+"domeny z tekstem certyfikatu."
+
+#: woocommerce-gateway-paylane.php:1311
+msgid ""
+"Unable to write certificate file. Please create \"./well-known/apple-"
+"developer-merchantid-domain-association.txt\" file into your main domain "
+"directory with certificate text."
+msgstr ""
+"Nie można zapisać pliku certyfikatu. Utwórz plik \"./well-known/apple-"
+"developer-merchantid-domain-association.txt\" w głównym katalogu domeny z "
+"tekstem certyfikatu."
+
+#: woocommerce-gateway-paylane.php:1408
+msgid "Payment error"
+msgstr "Błąd płatności"
+
+#: woocommerce-gateway-paylane.php:1491 Gateway/Base.php:530
+msgid "Transaction complete"
+msgstr "Transakcja zakończona"
+
+#: woocommerce-gateway-paylane.php:1495 Gateway/Base.php:533
+msgid "Refund complete"
+msgstr "Zwrot zakończony"
+
+#: woocommerce-gateway-paylane.php:1498 Gateway/Base.php:536
+msgid "Reversal received"
+msgstr "Otrzymano Reversal"
+
+#: woocommerce-gateway-paylane.php:1501 woocommerce-gateway-paylane.php:1504
+#: Gateway/Base.php:539 Gateway/Base.php:542
+msgid "Retrieval request / chargeback opened"
+msgstr "Retrieval / Chargeback rozpoczęty"
+
+#: Gateway/Secure.php:21 Gateway/Secure.php:31
+msgid "Fast transfer with Polskie ePłatności"
+msgstr "Szybki przelew z Polskie ePłatności"
+
+#: Gateway/BankTransfer.php:21 Gateway/BankTransfer.php:23
+#: Gateway/BankTransfer.php:31
+msgid "Bank transfer"
+msgstr "Przelew bankowy"
+
+#: Gateway/Base.php:81
+msgid "here"
+msgstr "tu"
+
+#: Gateway/Base.php:269
+msgid "Awaiting payment confirmation"
+msgstr "Oczekujemy na potwierdzenie płatności"
+
+#: Gateway/Base.php:294
+msgid "Incorrect Apple Pay payload"
+msgstr "Nieprawidłowe dane Apple Pay"
+
+#: Gateway/Base.php:621
+msgid "Card token is empty"
+msgstr "Brak tokenu karty"
+
+#: Gateway/Base.php:637
+msgid "Account holder name is empty"
+msgstr "Podaj imię i nazwisko"
+
+#: Gateway/Base.php:641
+msgid "Account country is empty"
+msgstr "Podaj Kraj"
+
+#: Gateway/Base.php:645
+msgid "IBAN is empty"
+msgstr "Numer IBAN jest pusty"
+
+#: Gateway/Base.php:649
+msgid "BIC is empty"
+msgstr "Numer BIC jest pusty"
+
+#: Gateway/Base.php:660
+msgid "The bank was not chosen"
+msgstr "Proszę wybrać Bank"
+
+#: Gateway/Base.php:671
+msgid "The CODE is required!"
+msgstr "KOD jest wymagany!"
+
+#: Gateway/Blik0.php:21
+msgid "BLIK"
+msgstr "BLIK"
+
+#~ msgid "3ds Check"
+#~ msgstr "3ds Check"
+
+#~ msgid ""
+#~ "If you will choose YES option, ONLY cards with 3-D Secure will be accepted"
+#~ msgstr ""
+#~ "Jeśli wybierzesz opcję TAK, akceptowane będą TYLKO karty z 3-D Secure"
+
+#~ msgid "YES"
+#~ msgstr "Tak"
+
+#~ msgid "NO"
+#~ msgstr "Nie"
+
+#~ msgid ""
+#~ "Notifications is a service that simplifies automatic communication "
+#~ "between your shop and Polskie ePłatności. A notification has information "
+#~ "about payment status.<br><br>\n"
+#~ "\t\t\t\t\t\t\t<big><strong>It is Highly recommended to enable "
+#~ "notifications</strong></big>.<br>\n"
+#~ "\t\t\t\t\t\t\t<br>\n"
+#~ "<strong>To enable notifications</strong>:<br>\n"
+#~ "- Chose individual login and password and enter them below (it should be "
+#~ "safe login and password, <strong>not the same as API login/password or "
+#~ "merchant panel login/password</strong>)<br>\n"
+#~ "<br>\n"
+#~ "- Send to us on e-mail (support@paylane.com) you notification login, "
+#~ "password and notification address, <br>\n"
+#~ "(Your notification address: <code>%s</code>)<br>\n"
+#~ "<br>\n"
+#~ "We will send you Notification token to fill inside this field"
+#~ msgstr ""
+#~ "Notyfikacje (powiadomienia) to informacje przesyłane przez system Polskie "
+#~ "ePłatności do Twojego sklepu. Notyfikacje zawierają informacje o "
+#~ "statusach płatności.<br><br>\n"
+#~ "\t\t\t\t\t\t\t<big><strong>Zalecamy aby je włączyć</strong></big>.<br>\n"
+#~ "\t\t\t\t\t\t\t<br>\n"
+#~ "<strong>Co zrobić aby włączyć notyfikacje:</strong>:<br>\n"
+#~ "- Wymyśl i wpisz poniżej login notyfikacji i hasło notyfikacji "
+#~ "(<strong>nie ma być to login i hasło do logowania do sklepu ani do "
+#~ "merchant panelu, ani też do API - ma to być zupełnie nowy login i hasło</"
+#~ "strong>)<br>\n"
+#~ "<br>\n"
+#~ "- Wyślij nam na adres support@paylane.com login notyfikacji, hasło "
+#~ "notyfikacji oraz adres notyfikacji, <br>\n"
+#~ "(Twój adres notyfikacji: <code>%s</code>)<br>\n"
+#~ "<br>\n"
+#~ "My odeślemy Ci token notyfikacji, który musisz wpisać w poniższe pole."
+
+#~ msgid ""
+#~ "You will be redirected to the PayLane Secure Form website for payment."
+#~ msgstr ""
+#~ "Zostaniesz przekierowany na stronę PayLane w celu dokonania płatności"
+
+#~ msgid "Paylane token not found in database"
+#~ msgstr "Nie znaleziono tokenu PayLane w bazie danych"
+
+#~ msgid "Paylane"
+#~ msgstr "PayLane"
+
+#~ msgid "Pay with PayLane."
+#~ msgstr "Zapłać z PayLane"
+
+#~ msgid "PayLane connection method"
+#~ msgstr "Metoda płatności PayLane"
+
+#~ msgid "Set the PayLane connection method SecureForm/API."
+#~ msgstr "Ustaw metodę płatności z PayLane (Secure Form/API)"
+
+#~ msgid "PayLane response redirect method"
+#~ msgstr "Metoda przekierowania"
+
+#~ msgid "PayLane"
+#~ msgstr "PayLane"
+
+#~ msgid ""
+#~ "Notifications is a service that simplifies automatic communication "
+#~ "between your shop and PayLane. A notification has information about "
+#~ "payment status.<br><br>\n"
+#~ "\t\t\t\t\t\t\t<big><strong>It is Highly recommended to enable "
+#~ "notifications</strong></big>.<br>\n"
+#~ "\t\t\t\t\t\t\t<br>\n"
+#~ "<strong>To enable notifications</strong>:<br>\n"
+#~ "- Chose individual login and password and enter them below (it should be "
+#~ "safe login and password, <strong>not the same as API login/password or "
+#~ "merchant panel login/password</strong>)<br>\n"
+#~ "<br>\n"
+#~ "- Send to us on e-mail (support@paylane.com) you notification login, "
+#~ "password and notification address, <br>\n"
+#~ "(Your notification address: <code>%s</code>)<br>\n"
+#~ "<br>\n"
+#~ "We will send you Notification token to fill inside this field"
+#~ msgstr ""
+#~ "Notyfikacje (powiadomienia) to informacje przesyłane przez system PayLane "
+#~ "do Twojego sklepu. Notyfikacje zawierają informacje o statusach płatności."
+#~ "<br><br>\n"
+#~ "\t\t\t\t\t\t\t<big><strong>Zalecamy aby je włączyć</strong></big>.<br>\n"
+#~ "\t\t\t\t\t\t\t<br>\n"
+#~ "<strong>Co zrobić aby włączyć notyfikacje:</strong>:<br>\n"
+#~ "- Wymyśl i wpisz poniżej login notyfikacji i hasło notyfikacji "
+#~ "(<strong>nie ma być to login i hasło do logowania do sklepu ani do "
+#~ "merchant panelu, ani też do API - ma to być zupełnie nowy login i hasło</"
+#~ "strong>)<br>\n"
+#~ "<br>\n"
+#~ "- Wyślij nam na adres support@paylane.com login notyfikacji, hasło "
+#~ "notyfikacji oraz adres notyfikacji, <br>\n"
+#~ "(Twój adres notyfikacji: <code>%s</code>)<br>\n"
+#~ "<br>\n"
+#~ "My odeślemy Ci token notyfikacji, który musisz wpisać w poniższe pole."
+
+#~ msgid "Customers will be redirected to the PayLane Secure Form for payment"
+#~ msgstr ""
+#~ "Klienci zostaną przekierowani do formularza płatności PayLane w celu "
+#~ "dokonania płatności"
+
+#~ msgid ""
+#~ "The PayLane payment module requires WooCommerce to run, you can download "
+#~ "it"
+#~ msgstr ""
+#~ "Moduł PayLane wymaga WooCommerce do poprawnego działania. Musisz go "
+#~ "ściagnąć."
+
+#~ msgid "Check Direct Debit transaction status (SEPA)"
+#~ msgstr "Sprawdź status transakcji (SEPA) "
+
+#~ msgid "Test subscription payment"
+#~ msgstr "Testowa płatność subksrybcyjna"
+
+#~ msgid "PayLane transaction status: "
+#~ msgstr "Status Transakcji"
+
+#~ msgid "Fast transfer with PayLane"
+#~ msgstr "Szybki przelew z PayLane"
+
+#~ msgid "Bank Transfer"
+#~ msgstr "Przelew bankowy"
+
+#~ msgid "Secure"
+#~ msgstr "Secure"
+
+#~ msgid "Version 2.0.6"
+#~ msgstr "Version 2.0.6"
+
+#~ msgid "Payment Error Occurred"
+#~ msgstr "Wystąpił błąd płatności"
+
+#~ msgid "paylane"
+#~ msgstr "paylane"
+
+#~ msgid ""
+#~ "<strong>What to do to enable Apple Pay:</strong><br>\n"
+#~ "                        - Send an email to support@paylane.com asking you "
+#~ "to enable Apple Pay on your account<br>\n"
+#~ "                        - If you use the payment method through the API, "
+#~ "please request a <b>certificate</b><br>\n"
+#~ "                        - Paste the <b>certificate</b> into the "
+#~ "certificate field<br>\n"
+#~ "                        - Tell us when you will finish above activities"
+#~ msgstr ""
+#~ "<strong>Co zrobić aby włączyć Apple Pay:</strong><br>\n"
+#~ "                        - Wyślij nam na adres support@paylane.com prośbę "
+#~ "o uruchomienie Apple Pay na swoim koncie<br>\n"
+#~ "                        - W przypadku korzystania z metody płatnosci "
+#~ "przez API poproś o nadanie <b>certyfikatu</b><br>\n"
+#~ "                        - Wklej <b>certyfikat</b> w pole certyfikat<br>\n"
+#~ "                        - Poinformuj nas o wykonaniu powyższych czynności."
+
+#~ msgid "First name is empty"
+#~ msgstr "Brak Imienia"
+
+#~ msgid "Last name is empty"
+#~ msgstr "Podaj nazwisko"
+
+#~ msgid "Version 2.0.0"
+#~ msgstr "Wersja 2.0.0"
+
+#~ msgid "Fraud Check"
+#~ msgstr "Sprawdzanie fraudów"
+
+#~ msgid "WooCommerce PayLane Gateway"
+#~ msgstr "WooCommerce Bramka płatnicza PayLane"
